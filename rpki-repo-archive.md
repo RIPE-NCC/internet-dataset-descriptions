@@ -5,14 +5,14 @@ The RPKI repo archive is at https://ftp.ripe.net/rpki/
 The archive is structured as follows:
    https://ftp.ripe.net/rpki/TAL/YYYY/MM/DD/
 with:
-   * TAL : Trust anchor [1]
-   * YYYY : Year
-   * MM   : Month
-   * DD   : Day
+   * `TAL` : Trust anchor [1]
+   * `YYYY` : Year
+   * `MM`   : Month
+   * `DD`   : Day
 
 The individual daily directories per trust anchor contain 2 files:
-   * repo.tar.gz : The raw repository content (as a tar-gzipped archive)
-   * roas.csv    : The VRPs (Verified ROA Payloads) that were extacted from the PKI materials
+   * `repo.tar.gz`: The raw repository content (as a tar-gzipped archive)
+   * `roas.csv`: The VRPs (Verified ROA Payloads) that were extacted from the PKI materials
  
 ##  Data Issues
 
@@ -27,6 +27,8 @@ Dates are the date of the change in the processing. They are likely reflected st
 
 #### 2022-02-17:
 `rrdp` is enabled. This should resolve the updates containing only partial data for APNIC.
+
+**Artifact:** change in directory structure of output (RRDP hostnames are present in `repo.tar.gz` archive)
 
 **Resolves:** large fraction of days with partial data for APNIC
 
@@ -43,4 +45,5 @@ Data collection switched from rpki-validator-2 to routinator 0.10.1.
 
 **Known issue:** A large fraction of the days has partial data for APNIC.
 
-TODO document this better
+Another description of this dataset is at https://rpki-study.github.io/rpki-archive/
+TODO document this better.
