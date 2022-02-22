@@ -25,10 +25,16 @@ The roa.csv file is missing from a large number of repos.
 ## Changelog
 Dates are the date of the change in the processing. They are likely reflected started in the file that starts on the next day.
 
-#### 2022-02-17:
-`rrdp` is enabled. This should resolve the updates containing only partial data for APNIC.
+#### To be released:
+  * `routinator.log` now contains errors + verbose output.
+  * trust anchor certificate added to the archive.
+
+#### 2022-02-18:
+  * `rrdp` is enabled. This should resolve the updates containing only partial data for APNIC.
+  * `routinator.log` containing errors in routinator output was added.
 
 **Artifact:** change in directory structure of output (RRDP hostnames are present in `repo.tar.gz` archive)
+**Artifact:** trust anchor certificates are not present in output (and may have been for a while)
 
 **Resolves:** large fraction of days with partial data for APNIC
 
