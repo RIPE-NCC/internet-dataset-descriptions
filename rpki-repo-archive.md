@@ -25,9 +25,10 @@ The roa.csv file is missing from a large number of repos.
 ## Changelog
 Dates are the date of the change in the processing. They are likely reflected started in the file that starts on the next day.
 
-#### To be released:
+#### 2022-02-23:
   * `routinator.log` now contains errors + verbose output.
-  * trust anchor certificate added to the archive.
+    * steps we execute changed: `routinator update`, `routinator vrps --no-update`, `routinator dump`
+  * Trust Anchor certificate added to the archive (directly [for now](https://github.com/NLnetLabs/routinator/issues/722))
 
 #### 2022-02-18:
   * `rrdp` is enabled. This should resolve the updates containing only partial data for APNIC.
