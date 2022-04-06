@@ -13,8 +13,14 @@ with:
 The individual daily directories per trust anchor contain 2 files:
    * `repo.tar.gz`: The raw repository content (as a tar-gzipped archive)
    * `roas.csv`: The VRPs (Verified ROA Payloads) that were extacted from the PKI materials
- 
+
 ##  Data Issues
+
+## 32-byte prefix in unvalidated files
+
+Files in the unvalidated path of the archives have a 32-byte prefix. This exists in archives from 2022-02-18 to 2022-04-05 (including).
+
+## Incomplete APNIC data
 
 There was an issue with syncing the APNIC data from ±2021-10-01 to 2022-02-23 , which results in roughly half of the days having truncated data
 
@@ -24,6 +30,12 @@ The roa.csv file is missing from a large number of repos.
 
 ## Changelog
 Dates are the date of the change in the processing. They are likely reflected started in the file that starts on the next day.
+
+#### 2022-04-06:
+
+  * Routinator updated from 0.10.1 to 0.11.1-rc1
+
+**Resolves:** 32-byte prefix on files in the unvalidated paths of the archives.
 
 #### 2022-02-23:
   * `routinator.log` now contains errors + verbose output.
