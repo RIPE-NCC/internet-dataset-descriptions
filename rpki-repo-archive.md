@@ -20,6 +20,10 @@ A description of data issues from a researchers perspective is available at [rpk
 ## Changelog
 Dates are the date of the change in the processing. They are likely reflected started in the file that starts on the next day.
 
+#### 2022-07-19:
+
+  * Generate md5 and sha256 hashes so that downloads can be verified.
+
 #### 2022-04-12:
 
   * Re-uploaded all archives between 2022-02-18 and 2022-04-05 (including) to correct a 32-byte prefix in files in the unvalidated paths of the archives.
