@@ -20,6 +20,11 @@ A description of data issues from a researchers perspective is available at [rpk
 ## Changelog
 Dates are the date of the change in the processing. They are likely reflected started in the file that starts on the next day.
 
+#### 2023-06-05:
+
+  * Fix unit of IPv6 address space in ROAs on [certification-stats]. The data
+    was always in `/48`s, but historically displayed as `/32`s.
+
 #### 2022-07-19:
 
   * Generate md5 and sha256 hashes so that downloads can be verified.
@@ -68,3 +73,5 @@ Data collection switched from rpki-validator-2 to routinator 0.10.1.
 
   * rpki-validator 2 was used
   * The roa.csv file is missing from a large number of repos.
+
+[certification-stats]: https://certification-stats.ripe.net/
