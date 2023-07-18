@@ -20,6 +20,10 @@ A description of data issues from a researchers perspective is available at [rpk
 ## Changelog
 Dates are the date of the change in the processing. They are likely reflected started in the file that starts on the next day.
 
+#### 2023-07-19:
+
+  * Routinator updated from 0.11.3 to 0.12.1
+
 #### 2023-06-05:
 
   * Fix unit of IPv6 address space in ROAs on [certification-stats]. The data
