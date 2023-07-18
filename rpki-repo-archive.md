@@ -24,6 +24,10 @@ Dates are the date of the change in the processing. They are likely reflected st
 
   * Routinator updated from 0.11.3 to 0.12.1
 
+#### 2023-07-18:
+
+  * Failure to produce archives between 2023-07-14 and 2023-07-17 (including). These archives will remain missing. Service is restored on 2023-07-18.
+
 #### 2023-06-05:
 
   * Fix unit of IPv6 address space in ROAs on [certification-stats]. The data
