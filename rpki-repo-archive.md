@@ -22,13 +22,16 @@ Dates are the date of the change in the processing. They are likely reflected st
 
 #### 2023-10-11:
 
-  * Routinator updated to 0.13.0
-  * Enabled ASPA (draft-ietf-sidrops-aspa-profile-16 support) on routinator
   * Added JSON output (`output.json.xz`)
 
 **Changed**:
   * Compressed version of `roa.csv` added (`roa.csv.xz`)
   * XZ compressed version of `repo.tar.gz` added (`repo.tar.xz`)
+
+#### 2023-10-10:
+
+  * Routinator updated to 0.13.0
+  * Enabled ASPA (draft-ietf-sidrops-aspa-profile-16 support) on routinator
 
 #### 2023-07-19:
 
