@@ -20,10 +20,15 @@ A description of data issues from a researchers perspective is available at [rpk
 ## Changelog
 Dates are the date of the change in the processing. They are likely reflected started in the file that starts on the next day.
 
-#### 2023-10-10:
+#### 2023-10-11:
 
   * Routinator updated to 0.13.0
   * Enabled ASPA (draft-ietf-sidrops-aspa-profile-16 support) on routinator
+  * Added JSON output (`output.json.xz`)
+
+**Changed**:
+  * Compressed version of `roa.csv` added (`roa.csv.xz`)
+  * XZ compressed version of `repo.tar.gz` added (`repo.tar.xz`)
 
 #### 2023-07-19:
 
