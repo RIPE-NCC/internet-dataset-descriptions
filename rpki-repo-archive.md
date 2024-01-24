@@ -20,6 +20,13 @@ A description of data issues from a researchers perspective is available at [rpk
 ## Changelog
 Dates are the date of the change in the processing. They are likely reflected started in the file that starts on the next day.
 
+#### 2024-01-25:
+
+  * Use routinator v0.13.1
+  * After user feedback, we have unified the compression method used. The
+    archive of historic `roa.csv` files was compressed as `.xz` as well. The
+	 `repo.tar.gz` archives have been recompressed as `repo.tar.xz`.
+
 #### 2023-10-11:
 
   * Added JSON output (`output.json.xz`)
