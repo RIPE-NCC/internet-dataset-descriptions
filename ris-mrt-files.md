@@ -41,10 +41,10 @@ route collector **does not necesarily** imply the location of the BGP peer.
 
 There are three main group of peers:
 
-* local peers: peers that RIS connects to via an IXP or local connection.
-* route servers: IXP route servers that peer with RIS. Depending on the IXP,
+* *local peers*: peers that RIS connects to via an IXP or local connection.
+* *route servers*: IXP route servers that peer with RIS. Depending on the IXP,
   the route server AS may or may not be present in the AS path.
-* multihop: A BGP session over the internet.
+* *multihop*: A BGP session over the internet.
 
 ## Changelog
 
