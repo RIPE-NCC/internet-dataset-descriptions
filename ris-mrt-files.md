@@ -20,8 +20,14 @@ The naming pattern for the files is as follows: `https://data.ris.ripe.net/rrcXX
 
 Dumps are created every 8 hours, and updates are created every 5 minutes
 
-*per peer information* is in the [RIS peer metadata files](https://ris.ripe.net/docs/prototypes/peer-metadata/): https://www.ris.ripe.net/prototypes/peer-metadata/metadata_latest.json
+*Per peer metadata* for peers where we have location information is in the 
+[RIS peer metadata files](https://ris.ripe.net/docs/prototypes/peer-metadata/): https://www.ris.ripe.net/prototypes/peer-metadata/metadata_latest.json.
+This includes the _location_ for peers where this information is available. The
+`country` and `city` reference the UN locode ([primary source](https://unece.org/trade/uncefact/unlocode), [alternative dataset](https://github.com/datasets/un-locode)) of the location of the peer.
 
+The location information is mostly available for `multihop` peers. In other
+situations the location can be derived using other methods (for example the IP
+range of IXP peering VLANs).
 
 ## RIPE RIS collectors
 
