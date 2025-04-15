@@ -1,6 +1,6 @@
-# RPKI repo archive
+# RPKI repository archive
 
-The RPKI repo archive is at https://ftp.ripe.net/rpki/ 
+The RPKI repository archive is at https://ftp.ripe.net/rpki/
 
 The archive is structured as follows:
    https://ftp.ripe.net/rpki/TAL/YYYY/MM/DD/
@@ -11,8 +11,8 @@ with:
    * `DD`   : Day
 
 The individual daily directories per trust anchor contain 2 files:
-   * `repo.tar.gz`: The raw repository content (as a tar-gzipped archive)
-   * `roas.csv`: The VRPs (Verified ROA Payloads) that were extacted from the PKI materials
+   * `repo.tar.xz`: The raw repository content (as a tar-gzipped archive)
+   * `roas.csv.xz`: The VRPs (Verified ROA Payloads) that were extacted from the PKI materials
 
 
 A description of data issues from a researchers perspective is available at [rpki-study.github.io](https://rpki-study.github.io/rpki-archive/)
@@ -78,14 +78,14 @@ Dates are the date of the change in the processing. They are likely reflected st
     * steps we execute changed: `routinator update`, `routinator vrps --no-update`, `routinator dump`
   * Trust Anchor certificate added to the archive (directly [for now](https://github.com/NLnetLabs/routinator/issues/722))
 
-**Resolves:** trust anchor certificates are included in the dataset.  
+**Resolves:** trust anchor certificates are included in the dataset.
 **Resolves:** large fraction of days with partial data for APNIC
 
 #### 2022-02-18:
   * `rrdp` is enabled. This should resolve the updates containing only partial data for APNIC.
   * `routinator.log` containing errors in routinator output was added.
 
-**Artifact:** change in directory structure of output (RRDP hostnames are present in `repo.tar.gz` archive).  
+**Artifact:** change in directory structure of output (RRDP hostnames are present in `repo.tar.gz` archive).
 **Known issue:** trust anchor certificates are not present in output (and may have been for a while)
 
 #### 2022-02-15:
