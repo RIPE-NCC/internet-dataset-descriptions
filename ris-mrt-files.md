@@ -20,7 +20,7 @@ The naming pattern for the files is as follows: `https://data.ris.ripe.net/rrcXX
 
 Dumps are created every 8 hours, and updates are created every 5 minutes
 
-*Per peer metadata* for peers where we have location information is in the 
+*Per peer metadata* for peers where we have location information is in the
 [RIS peer metadata files](https://ris.ripe.net/docs/prototypes/peer-metadata/): https://www.ris.ripe.net/prototypes/peer-metadata/metadata_latest.json.
 This includes the _location_ for peers where this information is available. The
 `country` and `city` reference the UN locode ([primary source](https://unece.org/trade/uncefact/unlocode), [alternative dataset](https://github.com/datasets/un-locode)) of the location of the peer.
@@ -57,9 +57,10 @@ think they are relevant for other consumers of the data.
 
 #### Ongoing issues:
 
-  * There is a configuration error with some peers, where multiple peers are
-    configured with the same IP but a different AS number. In some situations
-    one of the sessions is stable. We will adjust these on a case-by-case basis.
+  * There is a configuration error with some sessions, where multiple sessions are
+    configured with the same IP but a different AS number. These may be stable
+    or unstable sessions. We will adjust these on a case-by-case basis and adjust
+    this documentation.
 
 #### 2025-04-15:
 

@@ -1,0 +1,6 @@
+config:
+  fenced-code-language: false
+  heading-increment: false
+  line-length:
+    line_length: 100
+  no-trailing-punctuation: false
