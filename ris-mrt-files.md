@@ -88,4 +88,4 @@ this peer were stuck in our processing pipeline. We did not detect this early
 due to missing consistency checks.
 
 These routes were present in the table dumps (bview files) until 9 May 2025
-(first removed in [bview.20250509.1600.g](https://data.ris.ripe.net/rrc00/2025.05/bview.20250509.1600.gz)).
+(first removed in [bview.20250509.1600.gz](https://data.ris.ripe.net/rrc00/2025.05/bview.20250509.1600.gz)).
