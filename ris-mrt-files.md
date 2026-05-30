@@ -89,3 +89,9 @@ due to missing consistency checks.
 
 These routes were present in the table dumps (bview files) until 9 May 2025
 (first removed in [bview.20250509.1600.gz](https://data.ris.ripe.net/rrc00/2025.05/bview.20250509.1600.gz)).
+
+#### 2023-04-03: MRT file format/size change
+
+As per [this email](https://www.mail-archive.com/ris-users@ripe.net/msg00035.html)
+the internal structure of the MRT bview files changed after we migrated to a
+different software pipeline. This resulted in much smaller output files without changes to the data.
