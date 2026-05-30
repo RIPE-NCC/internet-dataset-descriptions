@@ -93,5 +93,5 @@ These routes were present in the table dumps (bview files) until 9 May 2025
 #### 2023-04-03: MRT file format/size change
 
 As per [this email](https://www.mail-archive.com/ris-users@ripe.net/msg00035.html)
-the internal structure of the MRT bview files changed after we migrated to a 
+the internal structure of the MRT bview files changed after we migrated to a
 different software pipeline. This resulted in much smaller output files without changes to the data.
