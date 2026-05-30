@@ -85,6 +85,11 @@ Update files between ~12:25 and ~13:55 UTC are significantly larger than expecte
 
 After de-peering `2a00:1e68:112::1` (`AS 42861`) on `rrc00`, some routes from
 this peer were stuck in our processing pipeline. We did not detect this early
+
+#### 2023-04-03: MRT file format/size change
+
+As per [this email](https://www.mail-archive.com/ris-users@ripe.net/msg00035.html)
+the MRT file format was fixed, resulting in much smaller output files
 due to missing consistency checks.
 
 These routes were present in the table dumps (bview files) until 9 May 2025
